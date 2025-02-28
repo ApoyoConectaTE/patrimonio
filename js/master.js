@@ -1,4 +1,5 @@
-const credencial = "https://docs.google.com/spreadsheets/d/e/2PACX-1vScnPMjzltL52EUbNDGDA0HO1BndueArKl5hXrZZIprsTO1rHZS0IMfD0AV_vLrEA/pub?output=csv";
+const credencial =
+  "https://docs.google.com/spreadsheets/d/e/2PACX-1vScnPMjzltL52EUbNDGDA0HO1BndueArKl5hXrZZIprsTO1rHZS0IMfD0AV_vLrEA/pub?gid=0&single=true&output=csv";
 
 const cursos =
   "https://docs.google.com/spreadsheets/d/e/2PACX-1vScnPMjzltL52EUbNDGDA0HO1BndueArKl5hXrZZIprsTO1rHZS0IMfD0AV_vLrEA/pub?gid=1215013168&single=true&output=csv";
