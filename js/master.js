@@ -93,8 +93,8 @@ function createContent(Id, curso) {
                   <div>${curso.Facultad}</div>
                 </div>
               </div>
-              <div class="m-y-3">
-                <details name="accordion-group-2" class="m-b-3">
+              <div class="m-t-3">
+                <details name="accordion-group-2" class="m-b-2">
                   <summary>
                     <h3>Resultados de aprendizaje</h3>
                     <span class="arrow">
@@ -104,13 +104,13 @@ function createContent(Id, curso) {
                       </svg>
                     </span>
                   </summary>
-                  <div class="content p-y-2">
+                  <div class="content p-t-2">
                     <ul>
                       ${createLi(curso.Objetivos)}
                     </ul>
                   </div>
                 </details>
-                <details name="accordion-group-2" class="m-b-3">
+                <details name="accordion-group-2" class="m-b-2">
                   <summary>
                     <h3>Metodología</h3>
                     <span class="arrow">
@@ -121,7 +121,7 @@ function createContent(Id, curso) {
                     </span>
                   </summary>
                   <div class="content p-y-2">
-                    <p class="m-b-2">${curso.Metodologia}</p>
+                    <p>${curso.Metodologia}</p>
                   </div>
                 </details>
                 <!--<details name="accordion-group-2" class="m-b-2">
