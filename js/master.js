@@ -94,7 +94,7 @@ function createContent(Id, curso) {
                 </div>
               </div>
               <div class="m-t-3">
-                <details name="accordion-group-2" class="m-b-2">
+                <details name="accordion-group-2" class="m-b-2" open>
                   <summary>
                     <h3>Resultados de aprendizaje</h3>
                     <span class="arrow">
